@@ -30,3 +30,8 @@ This project is a web application designed to answer questions related to financ
 ## Resources Used:
 - LLaMa 3 using Hugging Face spaces to fine tune and host the Chatbot
 - Google Safe Browsing API to verify if the site is legitimate or not
+
+## Demo Video:
+
+https://github.com/user-attachments/assets/adb7271c-66dd-41a3-8a26-9aec943922de
+
