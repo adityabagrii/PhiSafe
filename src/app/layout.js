@@ -1,14 +1,9 @@
-import { Inter, IBM_Plex_Mono } from "next/font/google";
+import { Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
-const ibm = IBM_Plex_Mono({
-  subsets: ['latin'],
-  weight: ['400', '700'],
-});
-
 
 export const metadata = {
   title: "PhiSafe",
