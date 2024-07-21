@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server";
 
 async function checkUrlWithGoogleSafeBrowsing(url) {
-    const apiKey = 'AIzaSyBeSbOzZgZwBMjzQvgq9xHVp9ccbUp2d-w';
+    const apiKey = 'Your API Key';
     const apiUrl = `https://safebrowsing.googleapis.com/v4/threatMatches:find?key=${apiKey}`;
   
     const requestBody = {
